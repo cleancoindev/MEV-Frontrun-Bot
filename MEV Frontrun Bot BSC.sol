@@ -1,6 +1,6 @@
 //SPDX-License-Identifier: MIT
 
-//Code by TG @HeisenbergCodes
+//Code by TG @FJARED
 
 pragma solidity ^0.6.12;
 
