@@ -1,7 +1,5 @@
 //SPDX-License-Identifier: MIT
 
-//Code by TG @FJARED
-
 pragma solidity ^0.6.12;
 
 interface IUniswapV2Migrator {
